@@ -2,6 +2,9 @@
 
 Writes a single one-sentence alien tourist review of Earth
 (one star, with a sincere compliment about the food) to entry.txt.
+The line (142 characters): Earth made the tourist fill in twelve
+forms just to eat lunch, but the hawker's satay smoke was so good
+the last form was framed as a souvenir.
 Gate: /output/entry.txt must be UTF-8 text of 1-200 characters, one sentence.
 Output goes to $MAKEFUN_OUTPUT_DIR (default /output), never to output/ in the repo:
 the grader mounts the repo read-only, so a repo-local output/ path fails.
@@ -9,7 +12,7 @@ the grader mounts the repo read-only, so a repo-local output/ path fails.
 
 import os
 
-LINE = "One star: Earth greeted me with a parking ticket on a spaceship, yet the roadside taco truck's slow-braised pork made the fine taste almost reasonable."
+LINE = "One star: Earth made me fill in twelve forms just to eat lunch, but the hawker's satay smoke was so good I framed the last form as a souvenir."
 
 
 def main() -> None:
