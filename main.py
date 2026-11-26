@@ -9,7 +9,7 @@ the grader mounts the repo read-only, so a repo-local output/ path fails.
 
 import os
 
-LINE = "One star: Earth makes visitors queue for hours just to breathe its smog, yet the street vendor's charcoal-grilled corn made me consider staying another orbit."
+LINE = "One star: Earth greeted me with a parking ticket on a spaceship, yet the roadside taco truck's slow-braised pork made the fine taste almost reasonable."
 
 
 def main() -> None:
